@@ -1,0 +1,29 @@
+p{
+    font-size: 25px;
+    border-right: 3px dashed red;
+}
+
+.paragraph{
+    color: white;
+    font-size: 27px;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: black;
+    border: none;
+}
+
+#seventh-paragraph{
+    border: 3px solid blue;
+    font-size: 35px;
+    font-style: bold
+    }
+
+.first-letter::first-letter{
+    color: red
+}
+
+.question{
+    border: none;
+    font-size: 14;
+    background-color: gray;
+}

@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+    color: #777;
+    font-weight: 100;
+    background-color: rgb(63, 224, 63);
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact {
+    background-color: rgb(238, 227, 227);
+    padding: 25px;
+    margin: 150px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 5px 0 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;
+}
+
+#input-name, #input-email, #input-number, #input-website, #input-textarea, #input-button {
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#input-textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#input-button {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: rgb(63, 224, 63);
+    color: white;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#input-button:hover {
+    background-color: rgb(82, 29, 206);
+}
+
+.copyright {
+    text-align: center;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    body{
+        font-size: 45px;
+        color: blue;
+        font-style: italic;
+        background-color: rgb(194, 194, 236);
+        }
+    #contact {
+        border-radius: 20px;
+        background-color: yellow;
+        box-shadow: 0px 5px 10px 10px blue;
+    }
+    h1 {
+        font-style: italic;
+        color: blue;
+        font-size: 45px;
+        
+    }
+    h2 {
+        font-style: italic;
+        color: blue;
+        font-size: 25px;
+    }
+    #input-name {
+        font-style: italic;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(194, 194, 236);
+        font-size: 25px;
+    }
+    #input-email {
+        font-style: italic;
+        border: 1px solid black;
+        border-radius: 10px;  
+        background-color: rgb(194, 194, 236);
+        font-size: 25px;
+    }
+    #input-number {
+        font-style: italic;
+        border: 1px solid black;
+        border-radius: 10px;  
+        background-color: rgb(194, 194, 236);
+        font-size: 25px;
+
+    }
+    #input-website {
+        font-style: italic;
+        border: 1px solid black;
+        border-radius: 10px;  
+        background-color: rgb(194, 194, 236);
+        font-size: 25px;
+
+    }
+    #input-textarea {
+        font-style: italic;
+        border: 1px solid black;
+        border-radius: 10px;  
+        background-color: rgb(194, 194, 236);
+        font-size: 25px;
+    }
+    #input-button {
+        font-style: italic;
+        background-color: rgb(194, 194, 236);
+        color: black;
+        border-radius: 10px;
+        border: 1px solid black;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
