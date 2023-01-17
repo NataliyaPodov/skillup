@@ -9,6 +9,8 @@ const result = credits - totalPrice
 
 if (totalPrice>credits) {
     console.log('Недостатньо коштiв на рахунку')
+} else if (Droid===null) {
+    console.log('Скасовано користувачем!')
 }
 
 else if (totalPrice<credits) {

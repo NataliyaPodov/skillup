@@ -1,13 +1,16 @@
-const pass =prompt ('Enter Pass')
-console.log(pass)
+const pass =prompt ('Enter Pass');
+console.log(pass);
+let message;
 
-const ADMIN_PASSWORD='jqueryismyjam'
+const ADMIN_PASSWORD='jqueryismyjam';
 if (pass==ADMIN_PASSWORD) {
-console.log("Ласкаво просимо") 
+alert (`Ласкаво просимо`); 
+} else if(pass===null) {
+    alert (`Скасовано користувачем!`);
 }
 
 else {
-    console.log("Доступ заборонений, невiрний пароль!")
+    alert (`Доступ заборонений, невiрний пароль!`);
 }
 
 
